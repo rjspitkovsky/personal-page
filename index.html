@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title>Rich Spitkovsky</title>
     <style media="screen">
-    @import url("fonts.googleapis.com/css?family=Open+Sans");
+
+      @import url('https://fonts.googleapis.com/css?family=Oswald');
+
       * {
         background-color: rgba(245,245,220,0.5);
         text-align: center;
-        font-family: "Open Sans", helvetica;
+        font-family: "Oswald", helvetica;
       }
       header {
         margin-bottom: 50px;
@@ -23,12 +25,25 @@
       }
       #intro p{
         text-align: right;
+        border-top: 2px solid red;
+        border-bottom: 2px solid blue;
+        font-size: 24px;
+      }
+      #social_media {
+        text-align: left;
+      }
+      #backstory, #backstory > * {
+        text-align: right;
       }
       </style>
   </head>
   <body>
     <header>Rich Spitkovsky</header>
-
+    <div id="social_media">
+      <a href="https://github.com/rjspitkovsky">My Github</a>
+      <a href="https://www.linkedin.com/in/richardspitkovsky/">My LinkedIn</a>
+      <a href="https://twitter.com/richspitkovsky">My Twitter</a>
+    </div>
         <!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10156210373467661%26set%3Da.434947312660%26type%3D3&width=500" width="530" height="1051" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
 
         <div id="intro">
@@ -36,8 +51,8 @@
            I am a software engineer/web developer that is seeking great opportunities to help innovate and shape our society in a positive way through code.<br>
            I'm based out of Brooklyn, NY and in addition to talking tech I love talking sports.</p>
         </div>
-    <div id="education">
-      <h2>Education</h2>
+    <div id="backstory">
+      <h2>Backstory</h2>
       <p>I studied at The George Washington University and received a BA in Political Science. I worked in the legal industry for 3 years before deciding I wanted to shift my career into programming. I made the decision to enroll at the Flatiron School and that was the best decision I could have made for myself. A fantastic curriculum, a supportive community, and a real eye-opening experience that confirmed that I can make it in this crazy tech world.</p>
     </div>
     <a href="https://github.com/rjspitkovsky/sports-predictions">Sports Predictions</a><br>
@@ -46,10 +61,5 @@
     <a href="https://github.com/rjspitkovsky/car-viewer">Car Viewer</a><br>
     <br>
     <br>
-    <div id="social_media">
-      <a href="https://twitter.com/richspitkovsky">My twitter</a><br>
-      <a href="https://github.com/rjspitkovsky">My github</a><br>
-      <a href="https://www.linkedin.com/in/richardspitkovsky/">My LinkedIn</a><br>
-    </div>
   </body>
 </html>
