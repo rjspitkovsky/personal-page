@@ -44,7 +44,7 @@
       #skills, #skills > * {
         text-align: right;
       }
-      #projects p {
+      #projects-intro {
         font-size: 18px;
         margin-top: -15px;
         text-decoration: underline;
@@ -52,6 +52,9 @@
       #projects > a {
         text-align: left;
         margin-left: -150px;
+      }
+      .project-descriptions {
+        margin-top: -15px;
       }
       </style>
   </head>
@@ -86,12 +89,16 @@
     </div>
     <div id="projects">
       <h1>Projects</h1>
-      <p>Take a look at some of the projects I've worked on!</p>
+      <p id="projects-intro">Take a look at some of the projects I've worked on!</p>
       <ul>
-    <h3><li><a href="https://github.com/rjspitkovsky/sports-predictions">Sports Predictions</a></li></h3><br>
-    <h3><li><a href="https://github.com/rjspitkovsky/explorers-unite">Explorers Unite</a></li></h3><br>
-    <h3><li><a href="https://github.com/rjspitkovsky/weather-page">Weather Page</a></li></h3><br>
-    <h3><li><a href="https://github.com/rjspitkovsky/car-viewer">Car Viewer</a></li></h3><br>
+    <h3><li><a href="https://github.com/rjspitkovsky/sports-predictions" target="_blank">Sports Predictions</a></li></h3><br>
+      <p class="project-descriptions">Post and view sport predictions. Connects front-end react/redux framework with rails API backend</p>
+    <h3><li><a href="https://github.com/rjspitkovsky/explorers-unite" target="_blank">Explorers Unite</a></li></h3><br>
+    <p class="project-descriptions">Share trip details. JS and jQuery used for front-end manipulation. Rails MVC architecture used. Supports third-party Authorization through Facebook.</p>
+    <h3><li><a href="https://github.com/rjspitkovsky/weather-page" target="_blank">Weather Page</a></li></h3><br>
+    <p class="project-descriptions">Check current weather or 5-day forecast of any city in the world. Uses HTML, CSS, JS, jQuery, templating scripts</p>
+    <h3><li><a href="https://github.com/rjspitkovsky/car-viewer" target="_blank">Car Viewer</a></li></h3><br>
+    <p class="project-descriptions">Find cars for sale and post your own. Sinatra framework with an MVC architecture. SQLite for database creation</p>
   </ul>
   </div>
     <br>
