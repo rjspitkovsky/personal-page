@@ -40,7 +40,7 @@
         margin-left: 50px;
       }
       #backstory, #backstory > * {
-        text-align: right;
+        text-align: left;
         width: 100%;
       }
       #skills {
@@ -49,6 +49,9 @@
       }
       #skills, #skills > * {
         text-align: right;
+      }
+      #skills > h2, h3 {
+        text-decoration: underline;
       }
       #projects-intro {
         /* font-size: 18px;
@@ -66,10 +69,13 @@
         padding: 10px;
       }
       #contact {
-        border-bottom: 2px solid purple;
+        border-top: 1px solid purple;
       }
       #contact h2 {
-        text-align: left;
+        text-align: center;
+      }
+      #teaser {
+        border-bottom: 2px solid orange;
       }
       </style>
   </head>
@@ -84,6 +90,10 @@
       <a href="https://www.linkedin.com/in/richardspitkovsky/" target="_blank" class="logos"> <img height="35" width="35" src="https://lh3.googleusercontent.com/b4XEFmrkMEabiEDDKarFIrFzxQKi5qtr7aOSqco_IDRnKI8FfbLZr1Qgimp_MW9Sv081VRkeB12jEailrSJUIgF7kqCYEYPf9uEjjBsaEslQLtgQ2pF1vhPVWli9bajsiYoo4ksuZw=s128-p-k" alt="linkedin logo"> </a>
       <a href="https://twitter.com/richspitkovsky" target="_blank" class="logos"> <img height="40" width="40" src="https://lh3.googleusercontent.com/EHsC4U8nLti9MkLAt54SAH17KMxjsW6ESgdqpOO1ahuUs87Z5eg-ZqYgW_Cjib6cm00y7TO3DBLcsvz6UQrRDWVPG6p-3dfQAnmuZTogiAqTLBgc3R0eRZ0U7t6C4qP9kLiX5LLUPg=w2400" alt="twitter logo"> </a>
 
+    </div>
+    <div id="contact">
+      <h2>Check out my resumé <a href="https://drive.google.com/file/d/1GnDWzzqj3I3XjpKqZ7d05rwFh4h0Vtf2/view?usp=sharing">here</a>.</h2>
+      <h2>Want to reach out? Feel free <a href="mailto:rjspitkovsky@gmail.com">here.</a> </h2>
     </div>
         <div id="intro">
           <h2>Welcome to my portfolio page!</h2><br>
@@ -103,10 +113,10 @@
        <h3>Developing Skills</h3>
        <p>Python, Angular, Vue, Sass, Postgres, PHP, AWS, and a thirst for much more</p>
     </div>
-    <div id="contact">
+    <!-- <div id="contact">
       <h2>Check out my resumé <a href="https://drive.google.com/file/d/1GnDWzzqj3I3XjpKqZ7d05rwFh4h0Vtf2/view?usp=sharing">here</a>.</h2>
       <h2>Want to reach out? Feel free <a href="mailto:rjspitkovsky@gmail.com">here.</a> </h2>
-    </div>
+    </div> -->
     <div id="projects">
       <!-- <h1>Projects</h1> -->
       <h1 id="projects-intro">Take a look at some of the projects I've worked on!</h1>
@@ -127,6 +137,6 @@
   </div>
     <br>
     <br>
-
+    <p id="teaser">Stay tuned for more...</p>
   </body>
 </html>
