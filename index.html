@@ -19,7 +19,6 @@
         font-size: 36px;
         text-align: left;
         display: inline-block;
-        border-bottom: 1px solid #000;
         padding-bottom: 3px;
       }
       #intro {
@@ -37,7 +36,7 @@
       #social_media {
         text-align: center;
         display: inline-block;
-        margin-left: 50px;
+        margin-left: 500px;
       }
       #backstory, #backstory > * {
         text-align: center;
@@ -51,12 +50,12 @@
         text-align: center;
       }
       #skills > h2, h3 {
-        text-decoration: underline;
+        text-decoration: bold;
       }
       #projects-intro {
         /* font-size: 18px;
         margin-top: -15px; */
-        text-decoration: underline;
+        text-decoration: bold;
       }
       #projects > a {
         text-align: left;
@@ -69,7 +68,6 @@
         padding: 10px;
       }
       #contact {
-        border-top: 1px solid purple;
       }
       #contact h2 {
         text-align: center;
@@ -80,11 +78,23 @@
         border-bottom: 1px solid orange;
         text-align: center;
       }
+      ul{
+        list-style: none;
+      }
+      footer{
+        text-align: center;
+      }
+      a{
+        text-decoration: none;
+        color:black;
+      }
+      
       </style>
   </head>
   <body>
 
-    <header>Rich Spitkovsky</header>
+    <header>
+      <a id="logo" href="index.html">Rich Spitkovsky</a>
     <div id="social_media">
       <!-- <a href="https://drive.google.com/file/d/1m91rCGTETAXde1wob1Y3t0k-f4SWLQc3/view?usp=sharing">My Resume</a> -->
       <a href="https://github.com/rjspitkovsky" target="_blank" class="logos">  <img height="35" width="35" src="https://lh3.googleusercontent.com/0BF5mZHj7HhmBFEqulFnMdAARG4mb1pTt3m9S1rddfpy5RG1Y6B5TEqpmFTNqRBaT2hbiSRExRUohC8FOxM_UaLL2MHy4QgnlUKjBDcVsHoGKXu_sw47iMl7uYkvDON-2XLOMZuT-A=s64-p-k" alt="github logo"></a>
@@ -94,18 +104,15 @@
       <a href="https://twitter.com/richspitkovsky" target="_blank" class="logos"> <img height="40" width="40" src="https://lh3.googleusercontent.com/EHsC4U8nLti9MkLAt54SAH17KMxjsW6ESgdqpOO1ahuUs87Z5eg-ZqYgW_Cjib6cm00y7TO3DBLcsvz6UQrRDWVPG6p-3dfQAnmuZTogiAqTLBgc3R0eRZ0U7t6C4qP9kLiX5LLUPg=w2400" alt="twitter logo"> </a>
 
     </div>
-    <div id="contact">
-      <h2>Check out my resumé <a href="https://drive.google.com/file/d/1GnDWzzqj3I3XjpKqZ7d05rwFh4h0Vtf2/view?usp=sharing">here</a>.</h2>
-      <h2>Want to reach out? Feel free <a href="mailto:rjspitkovsky@gmail.com">here.</a> </h2>
-    </div>
-        <div id="intro">
+    </header>
+            <div id="intro">
           <h2>Welcome to my portfolio page!</h2><br>
-           <p>I am a software engineer/web developer that is seeking great opportunities to help innovate and shape our society in a positive way through code.<br>
-           I'm based out of Brooklyn, NY and in addition to talking tech I love talking sports.</p>
+           <p>I am a software engineer/web developer who is seeking great opportunities to help innovate and shape our society in a positive way through code.<br>
+           I'm based out of Brooklyn, NY and in addition to talking about tech I love talking about sports.</p>
         </div>
     <div id="backstory">
       <h2>Backstory</h2>
-      <p>I studied at The George Washington University and received a BA in Political Science. I worked in the legal industry for 3 years before deciding I wanted to shift my career into programming.<br> I made the decision to enroll at the Flatiron School and that was the best decision I could have made for myself.<br> A fantastic curriculum, a supportive community, and a real eye-opening experience that confirmed that I can make it in this crazy tech world.</p>
+      <p>I studied at The George Washington University and received a BA in Political Science. I worked in the legal industry for 3 years before deciding I wanted to shift my career into programming.<br> I made the decision to enroll at the Flatiron School and that was the best decision I could have ever made for myself.<br> A fantastic curriculum, a supportive community, and a real eye-opening experience that confirmed that I can make it in this crazy tech world.</p>
     </div>
     <div id="skills">
       <h2>Skills</h2>
@@ -143,5 +150,12 @@
     <br>
     <br>
     <p id="teaser">Stay tuned for more...</p>
+    <footer>
+      <div id="contact">
+      <h2>Check out my resumé <a href="https://drive.google.com/file/d/1GnDWzzqj3I3XjpKqZ7d05rwFh4h0Vtf2/view?usp=sharing">here</a>.</h2>
+      <h2>Want to reach out? Feel free <a href="mailto:rjspitkovsky@gmail.com">here.</a> </h2>
+    </div>
+    <h4>2018. All rights reserved.</h4>
+    </footer>
   </body>
 </html>
